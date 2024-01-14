@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2cdc1ad-99c1-4cbe-b09a-9247350265f4" name="Changes" comment="VERSION FINALE SANS COMMENTAIRE CORRIGE">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docto2i.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Cadres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Medecins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Patients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Personne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Personnels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Plannings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Rdvs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Salles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vueControle/VueCadre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231101.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231201.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231202.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231203.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231204.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231205.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231206.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231211.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231212.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231213.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231214.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231215.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231216.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231221.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231222.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231223.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231224.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231225.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231226.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/cadres.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/medecins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/salles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DOCTO2I.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/modele/Cadres.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/modele/Medecins.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/modele/Patients.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/modele/Personne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/modele/Personnels.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/modele/Plannings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/modele/Rdvs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/modele/Salles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utilities/DatabaseGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utilities/Plannification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/DatabaseGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/DatabaseGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Plannification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Plannification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VueControle/Connexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VueControle/Connexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VueControle/VueMedecin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VueControle/VueMedecin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VueControle/VuePlanning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VueControle/VuePlanning.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Nekotaku0&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7eefbb4f-00b2-47b8-8624-2327356dde2f" />
+        <option name="url" value="https://github.com/Nekotaku0/Docto2i.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YXOi5uf6rw0L5xbEZSFEBDFphf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Connexion.executor": "Run",
+    "Application.VueCadre.executor": "Run",
+    "Application.VueMedecin.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Alexandre/Desktop/LE3/JAVALe3/Projet java/Docto2iFinal",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="modele" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexandre\Desktop\LE3\JAVALe3\Projet java\Docto2iFinal\.idea" />
+      <recent name="C:\Users\Alexandre\Desktop\LE3\JAVALe3\Projet java\Docto2iV3\src\main\java\VueControle" />
+      <recent name="C:\Users\Alexandre\Desktop\LE3\JAVALe3\Projet java\Docto2iV3\src\main\java\modele" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexandre\Desktop\LE3\JAVALe3\Projet java\Docto2i\src\main\resources\Images" />
+      <recent name="C:\Users\Alexandre\Desktop\LE3\JAVALe3\Projet java\Docto2i\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Docto2iV2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Docto2iV2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2cdc1ad-99c1-4cbe-b09a-9247350265f4" name="Changes" comment="" />
+      <created>1700668584070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700668584070</updated>
+      <workItem from="1700668584839" duration="1798000" />
+      <workItem from="1700670651036" duration="1209000" />
+      <workItem from="1700723412754" duration="809000" />
+      <workItem from="1700724238091" duration="2248000" />
+      <workItem from="1700760379591" duration="82000" />
+      <workItem from="1701292201436" duration="7026000" />
+      <workItem from="1701328088456" duration="680000" />
+      <workItem from="1701598425190" duration="17803000" />
+      <workItem from="1702992316008" duration="11531000" />
+      <workItem from="1703595834685" duration="9752000" />
+      <workItem from="1703608950318" duration="4659000" />
+      <workItem from="1704359583207" duration="26376000" />
+      <workItem from="1704387363310" duration="9808000" />
+      <workItem from="1704394741413" duration="4492000" />
+      <workItem from="1704399459749" duration="84000" />
+      <workItem from="1704435049985" duration="1394000" />
+      <workItem from="1704452019455" duration="2957000" />
+      <workItem from="1704616988491" duration="1553000" />
+      <workItem from="1704709245903" duration="197000" />
+      <workItem from="1704712932017" duration="258000" />
+      <workItem from="1704714441704" duration="705000" />
+      <workItem from="1704801936073" duration="601000" />
+      <workItem from="1704889976668" duration="1091000" />
+      <workItem from="1704891167425" duration="77000" />
+      <workItem from="1704892414798" duration="1656000" />
+      <workItem from="1704894273755" duration="910000" />
+      <workItem from="1704898287591" duration="277000" />
+      <workItem from="1704899753717" duration="305000" />
+      <workItem from="1704901070021" duration="474000" />
+      <workItem from="1704902162973" duration="183000" />
+      <workItem from="1704902356721" duration="20000" />
+      <workItem from="1704902450818" duration="1686000" />
+      <workItem from="1704904269216" duration="686000" />
+      <workItem from="1705060187364" duration="82000" />
+      <workItem from="1705064158937" duration="390000" />
+      <workItem from="1705069095861" duration="2350000" />
+      <workItem from="1705144300316" duration="8535000" />
+      <workItem from="1705152857118" duration="4854000" />
+      <workItem from="1705165811293" duration="9236000" />
+      <workItem from="1705176164634" duration="2987000" />
+      <workItem from="1705179162476" duration="29000" />
+      <workItem from="1705219325099" duration="1335000" />
+      <workItem from="1705220764683" duration="2982000" />
+      <workItem from="1705223787356" duration="316000" />
+      <workItem from="1705224145983" duration="548000" />
+      <workItem from="1705224939615" duration="127000" />
+      <workItem from="1705225075735" duration="1002000" />
+    </task>
+    <task id="LOCAL-00001" summary="Commit base">
+      <option name="closed" value="true" />
+      <created>1700669042255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700669042255</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ajout de persistence.xml">
+      <option name="closed" value="true" />
+      <created>1700669618510</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700669618510</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ajout de persistence.xml + p">
+      <option name="closed" value="true" />
+      <created>1700671130844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700671130844</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Classe personne V1">
+      <option name="closed" value="true" />
+      <created>1700724524700</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700724524700</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Classe personne V1">
+      <option name="closed" value="true" />
+      <created>1700724557225</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700724557225</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Classe personne V1">
+      <option name="closed" value="true" />
+      <created>1701292288348</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701292288348</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updates des test version plus opti avec interface et classes de génération + Ajout classe salle">
+      <option name="closed" value="true" />
+      <created>1701601047990</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701601047991</updated>
+    </task>
+    <task id="LOCAL-00008" summary="correction files">
+      <option name="closed" value="true" />
+      <created>1702992586792</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702992586792</updated>
+    </task>
+    <task id="LOCAL-00009" summary="correction planning">
+      <option name="closed" value="true" />
+      <created>1702993253015</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702993253015</updated>
+    </task>
+    <task id="LOCAL-00010" summary="correction bug affichage">
+      <option name="closed" value="true" />
+      <created>1702993739777</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702993739777</updated>
+    </task>
+    <task id="LOCAL-00011" summary="correction bug affichage">
+      <option name="closed" value="true" />
+      <created>1702994804147</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702994804147</updated>
+    </task>
+    <task id="LOCAL-00012" summary="correction bug affichage">
+      <option name="closed" value="true" />
+      <created>1702998795281</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702998795281</updated>
+    </task>
+    <task id="LOCAL-00013" summary="correction bug affichage">
+      <option name="closed" value="true" />
+      <created>1702999081276</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702999081276</updated>
+    </task>
+    <task id="LOCAL-00014" summary="correction bug affichage">
+      <option name="closed" value="true" />
+      <created>1703000925650</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703000925650</updated>
+    </task>
+    <task id="LOCAL-00015" summary="VERSION FINALE SANS COMMENTAIRE">
+      <option name="closed" value="true" />
+      <created>1704618228444</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704618228444</updated>
+    </task>
+    <task id="LOCAL-00016" summary="VERSION FINALE SANS COMMENTAIRE CORRIGE">
+      <option name="closed" value="true" />
+      <created>1705220312520</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1705220312520</updated>
+    </task>
+    <task id="LOCAL-00017" summary="VERSION FINALE SANS COMMENTAIRE CORRIGE">
+      <option name="closed" value="true" />
+      <created>1705223277552</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1705223277552</updated>
+    </task>
+    <task id="LOCAL-00018" summary="VERSION FINALE SANS COMMENTAIRE CORRIGE">
+      <option name="closed" value="true" />
+      <created>1705223466995</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1705223466995</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Commit base" />
+    <MESSAGE value="Ajout de persistence.xml" />
+    <MESSAGE value="Classe personne V1" />
+    <MESSAGE value="Updates des test version plus opti avec interface et classes de génération + Ajout classe salle" />
+    <MESSAGE value="correction files" />
+    <MESSAGE value="correction planning" />
+    <MESSAGE value="correction bug affichage" />
+    <MESSAGE value="VERSION FINALE SANS COMMENTAIRE" />
+    <MESSAGE value="VERSION FINALE SANS COMMENTAIRE CORRIGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="VERSION FINALE SANS COMMENTAIRE CORRIGE" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utilities/PlanningGenerator.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utilities/PlanningGenerator.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utilities/PlanningGenerator.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utilities/PlanningGenerator.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utilities/PlanningGenerator.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utilities/PlanningGenerator.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utilities/PlanningGenerator.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utilities/PlanningGenerator.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utilities/PlanningGenerator.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utilities/Plannification.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="modele.Plannings" memberName="medecinDispo" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="planning" />
+        <watch expression="planning" />
+        <watch expression="rdvs[1]" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
