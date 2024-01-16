@@ -6,70 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c2cdc1ad-99c1-4cbe-b09a-9247350265f4" name="Changes" comment="VERSION FINALE SANS COMMENTAIRE CORRIGE">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docto2i.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Cadres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Medecins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Patients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Personnels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Plannings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Rdvs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modele/Salles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vueControle/VueCadre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231101.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231201.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231202.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231203.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231204.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231205.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231206.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231211.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231212.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231213.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231214.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231215.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231216.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231221.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231222.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231223.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231224.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231225.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/20231226.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/cadres.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/medecins.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/salles.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DOCTO2I.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/modele/Cadres.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/modele/Medecins.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/modele/Patients.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/modele/Personne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/modele/Personnels.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/modele/Plannings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/modele/Rdvs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/modele/Salles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/utilities/DatabaseGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/utilities/Plannification.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/DatabaseGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/DatabaseGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Plannification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Plannification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VueControle/Connexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VueControle/Connexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VueControle/VueMedecin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VueControle/VueMedecin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VueControle/VuePlanning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VueControle/VuePlanning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,29 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Connexion.executor": "Run",
-    "Application.VueCadre.executor": "Run",
-    "Application.VueMedecin.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Alexandre/Desktop/LE3/JAVALe3/Projet java/Docto2iFinal",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Connexion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VueCadre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VueMedecin.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alexandre/Desktop/LE3/JAVALe3/Projet java/Docto2iFinal&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="modele" />
@@ -224,6 +162,8 @@
       <workItem from="1705224145983" duration="548000" />
       <workItem from="1705224939615" duration="127000" />
       <workItem from="1705225075735" duration="1002000" />
+      <workItem from="1705226088457" duration="59000" />
+      <workItem from="1705298428016" duration="125000" />
     </task>
     <task id="LOCAL-00001" summary="Commit base">
       <option name="closed" value="true" />
