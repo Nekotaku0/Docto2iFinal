@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2cdc1ad-99c1-4cbe-b09a-9247350265f4" name="Changes" comment="VERSION FINALE SANS COMMENTAIRE CORRIGE">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vueControle/VueCadre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vueControle/VueCadre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vueControle/VueMedecin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vueControle/VueMedecin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +165,7 @@
       <workItem from="1705225075735" duration="1002000" />
       <workItem from="1705226088457" duration="59000" />
       <workItem from="1705298428016" duration="125000" />
+      <workItem from="1705413208087" duration="791000" />
     </task>
     <task id="LOCAL-00001" summary="Commit base">
       <option name="closed" value="true" />
@@ -309,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705223466995</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="VERSION FINALE SANS COMMENTAIRE CORRIGE">
+      <option name="closed" value="true" />
+      <created>1705413216916</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1705413216916</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

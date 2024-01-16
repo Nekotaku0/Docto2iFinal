@@ -8,6 +8,8 @@ import org.hibernate.query.sqm.function.SelfRenderingOrderedSetAggregateFunction
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -83,13 +85,19 @@ public class VueMedecin extends VuePlanning {
         contentPane.add(label3);
 
         //bouton de déconnexion
-        JButton déconnexion = new JButton("Déconnexion");
-        déconnexion.setBounds(outil.getScreenSize().width-275, outil.getScreenSize().height-175, 200, 75);
-        déconnexion.setFont(new Font("Arial", Font.BOLD, 20));
-        déconnexion.setForeground(Color.BLACK);
-        déconnexion.setHorizontalAlignment(JLabel.CENTER);
-        déconnexion.setBackground(Color.WHITE);
-        contentPane.add(déconnexion);
+        JButton deconnexion = new JButton("Déconnexion");
+        deconnexion.setBounds(outil.getScreenSize().width-275, outil.getScreenSize().height-175, 200, 75);
+        deconnexion.setFont(new Font("Arial", Font.BOLD, 20));
+        deconnexion.setForeground(Color.BLACK);
+        deconnexion.setHorizontalAlignment(JLabel.CENTER);
+        deconnexion.setBackground(Color.WHITE);
+        deconnexion.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                onOK();
+            }
+        });
+        contentPane.add(deconnexion);
 
 
          try {
@@ -109,8 +117,6 @@ public class VueMedecin extends VuePlanning {
         //affiche la page
         setVisible(true);
 
-        //bouton déconnexion
-        déconnexion.addActionListener(e -> onOK());
 
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
@@ -118,10 +124,9 @@ public class VueMedecin extends VuePlanning {
     //bouton déconnexion
     private void onOK() {
         //ferme la fenêtre
-        System.out.println("coucou");
         manager.close();
-        Connexion connexion = new Connexion();
         dispose();
+        Connexion connexion = new Connexion();
     }
 
     public static void main(String[] args) {

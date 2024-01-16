@@ -143,19 +143,19 @@ public class VueCadre extends VuePlanning {
 
 
         //bouton de déconnexion
-        JButton button = new JButton("Déconnexion");
-        button.setBounds(outil.getScreenSize().width-275, outil.getScreenSize().height-175, 200, 75);
-        button.setFont(new Font("Arial", Font.BOLD, 20));
-        button.setForeground(Color.BLACK);
-        button.setHorizontalAlignment(JLabel.CENTER);
-        button.setBackground(Color.WHITE);
-        button.addActionListener(new ActionListener() {
+        JButton deconnexion = new JButton("Déconnexion");
+        deconnexion.setBounds(outil.getScreenSize().width-275, outil.getScreenSize().height-175, 200, 75);
+        deconnexion.setFont(new Font("Arial", Font.BOLD, 20));
+        deconnexion.setForeground(Color.BLACK);
+        deconnexion.setHorizontalAlignment(JLabel.CENTER);
+        deconnexion.setBackground(Color.WHITE);
+        deconnexion.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 onOK();
             }
         });
-        contentPane.add(button);
+        contentPane.add(deconnexion);
 
 
 
@@ -165,8 +165,8 @@ public class VueCadre extends VuePlanning {
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
 
-    //bouton déconnexion
     private void onOK() {
+        //ferme la fenêtre
         manager.close();
         dispose();
         Connexion connexion = new Connexion();
