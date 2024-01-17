@@ -13,6 +13,7 @@ import java.awt.*;
 
 public class Connexion extends JDialog {
     // Objets graphiques
+    /** Panel principal */
     private JPanel contentPane;
 
     /** Bouton de connexion */
@@ -23,8 +24,10 @@ public class Connexion extends JDialog {
 
     /** Champs de saisie du mot de passe */
     private JPasswordField passwordField;
+    /** Entity manager */
     private EntityManager manager;
 
+    /** Constructeur de la classe Connexion */
     public Connexion() {
 
         // Connexion à la base de données et génération de celle-ci si elle n'existe pas
@@ -32,6 +35,7 @@ public class Connexion extends JDialog {
         manager = emf.createEntityManager();
         generateDatabase();
 
+        //panel principal
         contentPane = new JPanel();
         contentPane.setLayout(null);
         setContentPane(contentPane);
@@ -106,6 +110,7 @@ public class Connexion extends JDialog {
         //listener bouton OK
         connexionBout.addActionListener(e -> onOK());
 
+        //affiche la fenêtre
         this.setVisible(true);
 
         //kill the program when the window is closed
@@ -114,13 +119,15 @@ public class Connexion extends JDialog {
     }
 
 
+    /** Génère la base de données si elle n'existe pas
+     */
     private void generateDatabase() {
         final EntityTransaction et = manager.getTransaction();
-        try {
+        try { // On tente de créer la base de données
             et.begin();
             DatabaseGenerator db = new DatabaseGenerator(manager);
             et.commit();
-        } catch (Exception ex) {
+        } catch (Exception ex) { // Si erreur, on affiche un message d'erreur et on fait un rollback
             JOptionPane.showMessageDialog(this, "Erreur de connexion à la base de données");
             ex.printStackTrace();
             System.out.println("exception " + ex);
@@ -129,6 +136,9 @@ public class Connexion extends JDialog {
         }
     }
 
+    /** Méthode du bouton de connexion
+     * @return void
+     */
     private void onOK() {
 
         //récupère login
@@ -137,14 +147,16 @@ public class Connexion extends JDialog {
         //récupère mdp
         String password = new String(passwordField.getPassword());
 
+        // Requête pour récupérer le personnel correspondant aux identifiants
         Query query = manager.createNamedQuery("Personnels.findByLoginAndMdp");
         query.setParameter("login", login);
         query.setParameter("mdp", password);
 
-        try {
+        try { // On tente de récupérer le personnel correspondant aux identifiants
             Personnels p = (Personnels) query.getSingleResult();
             dispose();
 
+            // Si le personnel est un médecin, on ouvre la fenêtre du médecin
             if (p instanceof modele.Medecins) {
                 Medecins m = (Medecins) p;
                 VueMedecin vueMedecin = new VueMedecin(m,manager);
@@ -159,7 +171,9 @@ public class Connexion extends JDialog {
 
     }
 
-    //run the program
+    /** Méthode main
+     * @param args Arguments
+     */
     public static void main(String[] args) {
         Connexion dialog = new Connexion();
     }

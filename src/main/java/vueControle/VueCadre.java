@@ -12,16 +12,32 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class VueCadre extends VuePlanning {
+
+    //objets graphiques
+    /** Panel principal */
     private JPanel contentPane;
+    /** Date du jour */
     String dateDuJour;
+    /** Bouton de déconnexion */
     private JButton buttonOK;
+    /** Tableau contenant le planning */
     private JTable planning;
+    /** Liste des médecins */
     private JComboBox<Object> medecinsList;
+    /** Liste des salles */
     private JComboBox<Object> sallesList;
+    /** Liste des plannings */
     private  JComboBox<Object> listePlanning;
+    /** Cadre connecté */
     private Cadres connectedCadre;
+    /** Entity manager */
     private EntityManager manager;
 
+
+    /** Constructeur de la classe VueCadre
+     * @param c Cadre connecté
+     * @param manager Entity manager
+     */
     public VueCadre(Cadres c, EntityManager manager) {
         this.manager = manager;
         contentPane = new JPanel();
@@ -29,6 +45,7 @@ public class VueCadre extends VuePlanning {
         setContentPane(contentPane);
         setModal(true);
 
+        // Vérifie si un cadre est connecté
         if (c == null) {
             System.out.println("Erreur : Cadre non connecté");
             System.exit(1);
@@ -87,6 +104,7 @@ public class VueCadre extends VuePlanning {
         label3.setHorizontalAlignment(JLabel.CENTER);
         contentPane.add(label3);
 
+        // Vérifie si le cadre a un planning aujourd'hui
         if (connectedCadre != null && connectedCadre == manager.createNamedQuery("getCadre").setParameter("date", dateDuJour).getSingleResult()) {
 
             // Ajout d'une liste déroulante pour choisir le type de planning
@@ -157,14 +175,14 @@ public class VueCadre extends VuePlanning {
         });
         contentPane.add(deconnexion);
 
-
-
         //affiche la page
         setVisible(true);
 
+        //ferme la fenêtre
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
 
+    /** Méthode appelée lors de l'appui sur le bouton de déconnexion */
     private void onOK() {
         //ferme la fenêtre
         manager.close();
@@ -172,6 +190,7 @@ public class VueCadre extends VuePlanning {
         Connexion connexion = new Connexion();
     }
 
+    /** Méthode d'ajout d'une liste déroulante pour choisir le médecin */
     private void addMedListe(){
         Toolkit outil = getToolkit();
         // Ajout d'une liste déroulante pour choisir le médecin
@@ -179,6 +198,7 @@ public class VueCadre extends VuePlanning {
         query.setParameter("date", dateDuJour);
         Medecins[] resultats = new Medecins[query.getResultList().size()];
 
+        // Récupération des médecins disponibles
         for (int i = 0; i < query.getResultList().size(); i++) resultats[i] = (Medecins) query.getResultList().get(i);
 
         medecinsList = createComboBox(resultats, listePlanning.getX() + listePlanning.getWidth(), listePlanning.getY(), 300, 50);
@@ -196,6 +216,7 @@ public class VueCadre extends VuePlanning {
         contentPane.add(medecinsList);
     }
 
+    /** Méthode d'ajout d'une liste déroulante pour choisir la salle */
     private void addSalleListe(){
         Toolkit outil = getToolkit();
         // Ajout d'une liste déroulante pour choisir le médecin
@@ -221,7 +242,9 @@ public class VueCadre extends VuePlanning {
         contentPane.add(sallesList);
     }
 
-
+    /** Méthode main de la classe VueCadre
+     * @param args String[]
+     */
     public static void main(String[] args) {
         VueCadre vueMedecin = new VueCadre(new Cadres(), null);
     }

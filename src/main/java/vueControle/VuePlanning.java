@@ -13,15 +13,24 @@ import java.util.Arrays;
 
 public abstract class VuePlanning extends JDialog {
 
+    /** Enumération des types de planning
+     * GLOBAL : planning global
+     * MEDECIN : planning d'un médecin
+     * SALLE : planning d'une salle
+     */
     public enum TypePlanning {
         GLOBAL,
         MEDECIN,
         SALLE
     }
 
-
+    /** Entity manager */
     private EntityManager manager;
 
+    /** Constructeur de la classe VuePlanning
+     * @param date String
+     * @param manager Entity manager
+     */
     public JTable generatePlanningGlobal(String date, EntityManager manager){
 
         this.manager = manager;
@@ -76,6 +85,12 @@ public abstract class VuePlanning extends JDialog {
         return createPlanningGraphique(data,nbRdvMaxParCreneau + 1,TypePlanning.GLOBAL);
     }
 
+    /** Méthode permettant de générer le planning d'un médecin
+     * @param med Médecin
+     * @param date Date du planning
+     * @param manager Entity manager
+     * @return JTable
+     */
     public JTable generatePlanningMedecin(Medecins med, String date, EntityManager manager){
         this.manager = manager;
 
@@ -115,7 +130,12 @@ public abstract class VuePlanning extends JDialog {
         return createPlanningGraphique(data,3,TypePlanning.MEDECIN);
     }
 
-
+    /** Méthode permettant de générer le planning d'une salle
+     * @param s Salle
+     * @param date Date du planning
+     * @param manager Entity manager
+     * @return JTable
+     */
     public JTable generatePlanningSalle(Salles s, String date, EntityManager manager){
         this.manager = manager;
 
@@ -154,7 +174,12 @@ public abstract class VuePlanning extends JDialog {
     }
 
 
-
+    /** Méthode permettant de créer le planning graphique
+     * @param data Données du planning
+     * @param nbRdvMaxParCreneau Nombre de rdv max par créneau
+     * @param typePlanning Type de planning
+     * @return JTable
+     */
     private JTable createPlanningGraphique(Object[][] data, int nbRdvMaxParCreneau, TypePlanning typePlanning){
         JTable table = null;
         String columnNames[] = new String[nbRdvMaxParCreneau];
@@ -232,6 +257,10 @@ public abstract class VuePlanning extends JDialog {
         return table;
     }
 
+    /** Méthode permettant de récupérer le nombre de rdv max par créneau
+     * @param planning Planning
+     * @return int
+     */
     private int nombreDeRdvMaxParCreneau(Plannings planning) {
         int[] maxLocal = new int[20];
         int max = 0;
@@ -243,12 +272,21 @@ public abstract class VuePlanning extends JDialog {
         return maxLocal[maxLocal.length-1];
     }
 
+    /** Méthode permettant de récupérer le planning par date
+     * @param date Date
+     * @return Plannings
+     */
     private Plannings getPlanningByDate(String date) {
         Query query = manager.createNamedQuery("findByDate");
         query.setParameter("date", date);
         return (Plannings) query.getSingleResult();
     }
 
+    /** Méthode permettant de récupérer le planning par médecin
+     * @param date Date
+     * @param med Médecin
+     * @return Plannings
+     */
     private Plannings getPlanningByMedecin(String date,Medecins med) {
         Query query = manager.createNamedQuery("getPlanningByDateAndMedecin");
         query.setParameter("date", date);
@@ -256,6 +294,14 @@ public abstract class VuePlanning extends JDialog {
         return (Plannings) query.getSingleResult();
     }
 
+    /** Méthode de création d'une combobox
+     * @param contenu Contenu de la combobox
+     * @param x Position x
+     * @param y Position y
+     * @param width Largeur
+     * @param height Hauteur
+     * @return JComboBox
+     */
     public JComboBox<Object> createComboBox(Object[] contenu,int x, int y, int width, int height){
         JComboBox<Object> comboBox = new JComboBox<>(contenu);
         comboBox.setBounds(x, y, width, height);

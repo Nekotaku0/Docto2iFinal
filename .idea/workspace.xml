@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2cdc1ad-99c1-4cbe-b09a-9247350265f4" name="Changes" comment="VERSION FINALE SANS COMMENTAIRE CORRIGE">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c2cdc1ad-99c1-4cbe-b09a-9247350265f4" name="Changes" comment="Commentaires modele">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modele/Cadres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modele/Cadres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modele/Medecins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modele/Medecins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modele/Patients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modele/Patients.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modele/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modele/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modele/Personnels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modele/Personnels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modele/Plannings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modele/Plannings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modele/Rdvs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modele/Rdvs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modele/Salles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modele/Salles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vueControle/Connexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vueControle/Connexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vueControle/VueCadre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vueControle/VueCadre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vueControle/VueMedecin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vueControle/VueMedecin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vueControle/VuePlanning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vueControle/VuePlanning.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +168,7 @@
       <workItem from="1705226088457" duration="59000" />
       <workItem from="1705298428016" duration="125000" />
       <workItem from="1705413208087" duration="791000" />
-      <workItem from="1705500682211" duration="2201000" />
+      <workItem from="1705500682211" duration="3609000" />
     </task>
     <task id="LOCAL-00001" summary="Commit base">
       <option name="closed" value="true" />
@@ -327,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705413216916</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Commentaires modele">
+      <option name="closed" value="true" />
+      <created>1705517581782</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705517581782</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +360,8 @@
     <MESSAGE value="correction bug affichage" />
     <MESSAGE value="VERSION FINALE SANS COMMENTAIRE" />
     <MESSAGE value="VERSION FINALE SANS COMMENTAIRE CORRIGE" />
-    <option name="LAST_COMMIT_MESSAGE" value="VERSION FINALE SANS COMMENTAIRE CORRIGE" />
+    <MESSAGE value="Commentaires modele" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commentaires modele" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">

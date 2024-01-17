@@ -14,15 +14,19 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class VueMedecin extends VuePlanning {
+    /** Panel principal */
     private JPanel contentPane;
+    /** Bouton de connexion */
     private JButton buttonOK;
+    /** Chaine de caractère avec le login */
     private String login;
+    /** Champs de saisie du mot de passe */
     private EntityManager manager;
 
-
-
-
-
+    /** Constructeur de la classe VueMedecin
+     * @param med Médecin connecté
+     * @param manager Entity manager
+     */
     public VueMedecin(Medecins med, EntityManager manager) {
         this.manager = manager;
         contentPane = new JPanel();
@@ -121,7 +125,9 @@ public class VueMedecin extends VuePlanning {
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
 
-    //bouton déconnexion
+    /** Méthode de déconnexion
+     * @return void
+     */
     private void onOK() {
         //ferme la fenêtre
         manager.close();
@@ -129,6 +135,9 @@ public class VueMedecin extends VuePlanning {
         Connexion connexion = new Connexion();
     }
 
+    /** méthode main de la classe VueMedecin
+     * @param args Arguments
+     */
     public static void main(String[] args) {
             VueMedecin vueMedecin = new VueMedecin(new Medecins(), null);
         }
