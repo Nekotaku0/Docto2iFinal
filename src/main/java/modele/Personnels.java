@@ -19,26 +19,43 @@ import modele.Personne;
 @Entity
 public abstract class Personnels extends Personne {
 
+    /** id du personnel*/
     @Id
     @GeneratedValue(strategy = GenerationType.TABLE)
     private int id;
 
+    /** Login du personnel*/
     @Column(name = "LOGIN")
     private String login;
 
+    /** Mot de passe du personnel*/
     @Column(name = "MOTDEPASSE")
     private String motDePasse;
 
+    /** Adresse du personnel*/
     @Column(name = "ADRESSE")
     private String Adresse;
 
 
+    /** Constructeur de la classe Personnels
+     * @param login Login du personnel
+     * @param motDePasse Mot de passe du personnel
+     * @param adresse Adresse du personnel
+     */
     public Personnels(String login, String motDePasse, String adresse) {
         this.login = login;
         this.motDePasse = motDePasse;
         Adresse = adresse;
     }
 
+    /** Constructeur de la classe Personnels
+     * @param nom Nom du personnel
+     * @param prenom Prénom du personnel
+     * @param dateDeNaissance Date de naissance du personnel
+     * @param login Login du personnel
+     * @param motDePasse Mot de passe du personnel
+     * @param adresse Adresse du personnel
+     */
     public Personnels(String nom, String prenom, String dateDeNaissance, String login, String motDePasse, String adresse) {
         super(nom, prenom, dateDeNaissance);
         this.login = login;
@@ -46,6 +63,7 @@ public abstract class Personnels extends Personne {
         Adresse = adresse;
     }
 
+    /** Constructeur par défaut de la classe Personnels*/
     public Personnels() {
         super();
         this.login = "login";
@@ -53,10 +71,16 @@ public abstract class Personnels extends Personne {
         Adresse = "adresse";
     }
 
+    /** Getter de l'attribut login
+     * @return String
+     */
     public String getLogin() {
         return login;
     }
 
+    /** Getter de l'attribut id
+     * @return int
+     */
     public int getId() {
         return id;
     }
